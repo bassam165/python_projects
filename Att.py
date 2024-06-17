@@ -3,6 +3,7 @@ from tkinter import filedialog
 import pandas as pd
 import openpyxl
 
+
 def compare_excel_files():
     file1_path = file1_entry.get()
     file2_path = file2_entry.get()
